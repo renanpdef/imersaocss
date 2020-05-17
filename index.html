@@ -2,20 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renan Figueiredo</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7fab01b678.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="menu">
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portifólio</a></li>
-                <li><a href="#">Contato</a></li>
+            <ul class="container">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <h1 class="site-title">Renan Figueiredo</h1>
-        <h2 class="site-subtitle">Backend developer</h2>
+        <div class="titulo">
+            <h1 class="site-title">Renan Figueiredo</h1>
+            <h2 class="site-subtitle">Backend developer</h2> 
+            <h2 class="site-subtitle">Researcher</h2> 
+        </div>
     </header>
+    <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+        <figure class="avatar">
+            <img src="https://c4.wallpaperflare.com/wallpaper/616/450/559/anime-hunter-x-hunter-killua-zoldyck-hd-wallpaper-preview.jpg" alt="Killua Zoldyck">
+        </figure>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta totam cum, veniam quidem tenetur nostrum, dolore excepturi vero consectetur eos officia nobis maiores nisi voluptatem molestiae voluptate tempora. Rerum!
+        </p>
+        <p>
+            Consectetur ullam alias voluptatibus dolore voluptate neque quas quisquam, exercitationem laborum qui repellendus esse nesciunt assumenda dignissimos pariatur, eos, quam iste minus! Earum similique consequuntur assumenda inventore dolor? Natus, fugiat.
+        </p>
+        <p>
+            Dolore odit nesciunt numquam veniam, exercitationem sequi, reiciendis voluptatum eaque ipsam at provident possimus error minus optio sit. Aliquid dignissimos quos quasi vitae molestiae eius sint. Id eligendi non porro!
+        </p>
+        <p>
+            Este site foi construido durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>.
+        </p>
+    </section>
+    <section class="portfolio container" id="portfolio">
+        <h2>Projetos</h2>
+
+        <div class="grid">
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="img/alura.png" alt="Alura">
+                    </figure>
+                    <div class="card-back">
+                        Oi eu sou a parte de trás :)
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="img/caelum.png" alt="Caelum">
+                    </figure>
+                    <div class="card-back">
+                        Oi eu sou a parte de trás :)
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="img/hispters.png" alt="Hispters.Tech">
+                    </figure>
+                    <div class="card-back">
+                        Oi eu sou a parte de trás :)
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front"> 
+                        <img class="img-portfolio" src="img/likeaboss.png" alt="Like a Boss">
+                    </figure>
+                    <div class="card-back">
+                        Oi eu sou a parte de trás :)
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="img/hobby.png" alt="Handstand">
+                    </figure>
+                    <div class="card-back">
+                        Oi eu sou a parte de trás :)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="contato container" id="contato">
+        <h2>Contato</h2>
+
+        <div class="grid icons">
+            <a target="_blank" href="https://github.com/peas">
+                <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/paulo_caelum">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a target="_blank" href="https://linkedin.com/in/paulosilveira">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://instagram.com/paulo_hipster">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+      </section>
 </body>
 </html>
